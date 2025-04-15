@@ -1,0 +1,8 @@
+services:
+  pvpgn:
+    image: wwmoraes/pvpgn-server
+    ports:
+    - 6112:6112
+    - 4000:4000
+    volumes:
+      - ./config/bnetd.conf:/usr/local/pvpgn/etc/pvpgn/bnetd.conf:ro
