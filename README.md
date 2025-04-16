@@ -26,9 +26,10 @@ When `192.168.1.15` is the IP address/domain name of your PvPGN server.
 
 ## Running the server
 
-To run, clone the repository and then execute:
-
-`docker compose up`
++ Clone the repository `git clone https://github.com/rshirubaagan/pvpgn_server`
++ Enter the cloned directory `cd pvpgn_server`
++ Build the image `docker build -t rshirubaagan/pvpgn .`
++ Start the service `docker compose up`
 
 Now the server is running and awaiting incoming connections.
 
