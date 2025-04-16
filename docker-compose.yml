@@ -1,6 +1,6 @@
 services:
   pvpgn:
-    image: wwmoraes/pvpgn-server
+    image: rshirubaagan/pvpgn
     ports:
     - 6112:6112
     - 4000:4000
